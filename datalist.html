@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>general list select</h1> -->
+    <label for="favlanguage">favorite program languages</label>
+    <input list="languages" id="favlanguage" name="favlanguage" > 
+    <datalist id="languages">
+        <option value="sihaam"></option>
+        <option value="ani"></option>
+        <option value="ruby"></option>
+        <option value="python"></option>
+        <option value="c#"></option>
+    </datalist>
+    <br> <br>
+    <!-- <h1>time</h1> -->
+     <input type="time" list="popularHours">
+     <datalist id="popularHours">
+        <option value="10:00"></option>
+        <option value="11:00"></option>
+        <option value="12:00"></option>
+        <option value="1:00"></option>
+     </datalist>
+     <br><br>
+     <label for="tick">tip</label>
+     <input type="range" 
+            name="tick" 
+            id="tick" 
+            list="tickmrks"
+            mix="0" 
+            max="100">
+     <datalist id="tickmrks">
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+     </datalist>
+</body>
+</html>
